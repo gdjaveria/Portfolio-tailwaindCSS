@@ -59,30 +59,25 @@ const Contact = () => {
     
     
     <div className='mb-4 mt-8 text-orange-200'>
-    <FaEnvelope className='inline-block text-orange-200 mx-5 my-3'>
+    <FaEnvelope className='inline-block text-orange-200 mx-5 my-3'/>
 
-    </FaEnvelope>
-            <a href="mailto:youremail@example.com" className='hover:underline'>
-             yourEmail@exmple.com
-             </a>
+   
+ <a href="mailto:youremail@example.com" className='hover:underline'>
+  yourEmail@exmple.com
+      </a>
             
-        </div>
+  </div>
         
         <div className='mb-4'>
-   <FaPhone className='inline-block text-orange-200 mx-5'>
-
-   </FaPhone>
-        <span className="text-orange-200">+982-8839-922</span>
-         </div>
-              <div className='mb-4'>
-                  <FaMapMarkedAlt className='inline-block text-orange-200 mx-5'>
-
-                  </FaMapMarkedAlt>
-                  <span className="text-orange-200">Street city country</span>
-        
-              </div>
-              </motion.div>
-            </div>
+   <FaPhone className='inline-block text-orange-200 mx-5'/>
+<span className="text-orange-200">+982-8839-922</span>
+   </div>
+  <div className='mb-4'>
+        <FaMapMarkedAlt className='inline-block text-orange-200 mx-5'/>
+        <span className="text-orange-200">Street city country</span>
+        </div>
+ </motion.div>
+  </div>
 
 
 <motion.div
